@@ -74,7 +74,7 @@ map <space> /
 map <c-space> ?
 map <silent> <leader><cr> :noh<cr>
 
-map <C-O> :NERDTree
+map <C-O> :NERDTree<CR>
 
 " Map Ctrl + h to previous tab and Ctrl + l to next tab 
 nmap <C-H> :tabprev<CR>
