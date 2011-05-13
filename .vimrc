@@ -1,3 +1,7 @@
+" Use pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set nocompatible
 set autoindent
 set softtabstop=2
@@ -75,3 +79,4 @@ nmap <C-L> :tabnext<CR>
 nmap <C-F> ::FufFile<CR>
 
 iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
+
