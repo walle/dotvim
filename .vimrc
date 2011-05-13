@@ -29,6 +29,8 @@ set noswapfile
 set magic
 set nowrap
 
+runtime macros/matchit.vim
+
 "
 " appearance options
 "
