@@ -84,3 +84,5 @@ nmap <C-F> ::FufFile<CR>
 
 iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
 
+" Open NERDTree
+au VimEnter *  NERDTree
