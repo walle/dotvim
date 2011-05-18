@@ -31,3 +31,21 @@
 [submodule "bundle/vim-coffe-script"]
 	path = bundle/vim-coffe-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/velocity"]
+	path = bundle/velocity
+	url = https://github.com/vim-scripts/velocity.vim.git
+[submodule "bundle/colorizer"]
+	path = bundle/colorizer
+	url = https://github.com/vim-scripts/colorizer.git
+[submodule "bundle/molly"]
+	path = bundle/molly
+	url = https://github.com/vim-scripts/molly.vim.git
+[submodule "bundle/easymotion"]
+	path = bundle/easymotion
+	url = https://github.com/vim-scripts/EasyMotion.git
+[submodule "bundle/preview"]
+	path = bundle/preview
+	url = https://github.com/vim-scripts/preview.git
+[submodule "bundle/pairtools"]
+	path = bundle/pairtools
+	url = https://github.com/vim-scripts/PairTools.git
