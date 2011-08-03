@@ -76,20 +76,18 @@ map <space> /
 map <c-space> ?
 map <silent> <leader><cr> :noh<cr>
 
-map <C-O> :NERDTree<CR>
+map <C-O> :execute 'NERDTreeToggle ' . getcwd()<CR>
 
 " Map Ctrl + h to previous tab and Ctrl + l to next tab
 nmap <C-H> :tabprev<CR>
 nmap <C-L> :tabnext<CR>
 
-nmap <C-F> ::FufFile<CR>
-
-map <F2> :Flisttoggle <CR>
+map <C-F> :Flisttoggle <CR>
 
 iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
 
 " Open ColorHighlight automatically
-au VimEnter * ColorHighlight 
+au VimEnter * ColorHighlight
 
 " Remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
