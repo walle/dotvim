@@ -1,3 +1,5 @@
+filetype off
+
 " Use pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -86,3 +88,8 @@ map <F2> :Flisttoggle <CR>
 
 iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
 
+" Open ColorHighlight automatically
+au VimEnter * ColorHighlight 
+
+" Remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
