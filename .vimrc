@@ -76,11 +76,13 @@ map <silent> <leader><cr> :noh<cr>
 
 map <C-O> :NERDTree<CR>
 
-" Map Ctrl + h to previous tab and Ctrl + l to next tab 
+" Map Ctrl + h to previous tab and Ctrl + l to next tab
 nmap <C-H> :tabprev<CR>
 nmap <C-L> :tabnext<CR>
 
 nmap <C-F> ::FufFile<CR>
+
+map <F2> :Flisttoggle <CR>
 
 iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
 
